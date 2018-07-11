@@ -1,0 +1,14 @@
+def time_of_day(time)
+2	  if time >= 7 && time < 11
+3	    puts "Good morning!"
+4	  elsif time >= 11 && time <17
+5	    puts "Good afternoon!"
+6	  elsif time >= 17 && time < 20
+7	    puts "Good evening!"
+8	  else 
+9	    puts "Good night!"
+10	  end
+11	
+12	end
+13	
+14	time_of_day(18)
