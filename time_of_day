@@ -10,4 +10,4 @@ def time_of_day(time)
 	  end
 	end
 	
-	time_of_day(18)
+	time_of_day(2)
